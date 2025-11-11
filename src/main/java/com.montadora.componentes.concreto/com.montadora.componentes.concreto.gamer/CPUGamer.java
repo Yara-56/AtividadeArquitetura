@@ -50,4 +50,5 @@ public class CPUGamer implements CPU {
     public String getDescription() {
         return "CPU Gamer (Intel Core i9 14ª Geração, 5.8 GHz, 24 Núcleos)";
     }
+
 }
