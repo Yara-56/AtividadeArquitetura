@@ -47,9 +47,12 @@ public class Computador {
     // Método para exibir o relatório final (a ser detalhado pela Pessoa 3/4)
     public String getRelatorioFinal() {
         return "Relatório de Configuração:\n" + 
-               "CPU: " + (cpu != null ? cpu.getDescription() : "Não montada") + "\n" +
-               "Placa Mãe: " + (placaMae != null ? placaMae.getDescription() : "Não montada") +
-               // ... (incluir os outros componentes aqui)
-               "\n(Relatório detalhado a ser implementado pela Pessoa 3/4)";
+           "CPU: " + (cpu != null ? cpu.getDescription() : "Não montada") + "\n" +
+           "Placa Mãe: " + (placaMae != null ? placaMae.getDescription() : "Não montada") + "\n" +
+           "GPU: " + (gpu != null ? gpu.getDescription() : "Não montada") + "\n" +
+           "RAM: " + (ram != null ? ram.getDescription() : "Não montada") + "\n" +
+           "Armazenamento: " + (armazenamento != null ? armazenamento.getDescription() : "Não montado") + "\n" +
+           "Fonte de Energia: " + (fonte != null ? fonte.getDescription() : "Não montada") + "\n" +
+           "\n(Relatório detalhado a ser implementado pela Pessoa 3/4)";
     }
 }
