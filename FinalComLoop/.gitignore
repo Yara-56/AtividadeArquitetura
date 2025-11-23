@@ -1,0 +1,8 @@
+# Ignorar arquivos compilados
+bin/
+*.class
+
+# Ignorar configs específicas do Eclipse/VSCode
+.classpath
+.project
+.settings/
